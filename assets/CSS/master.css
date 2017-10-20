@@ -3,25 +3,35 @@ margin:0;
 padding:0;
 }
 
-
 h1, p {margin:0;}
 
-
 #un{
-background-color:antiquewhite;
-border: solid red 5px;
-font-family:monospace;
-padding:15px;
-
-
+    background-color:antiquewhite;
+    border: solid red 5px;
+    font-family:inherit;
+    padding:15px;
+    width:1000px;
+    margin:0 auto;
 }
-img{
- 
+
+#gif{
     margin-top: 250px;
     margin:0 auto;
     display: block;
     border: red 20px dotted;
-    width: 30%;
-   
-    
+    width: 30%;     
+}
+
+#home{
+    z-index: 4;
+    width: 1%; 
+    margin-left: 50px;
+}
+
+.bkg{
+    z-index: 5;
+    position: absolute;
+    margin-top: 10px;
+    top:0;
+    box-sizing: 20%;
 }
